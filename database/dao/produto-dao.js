@@ -15,7 +15,7 @@ async function gravarDados(dados) {
     });
     return true;
   } catch (error) {
-    console.log("Erro ao incluir um cliente: "+error)
+    console.log("Erro ao incluir um produto: "+error)
     return false;
   }
 }
